@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'horizon';
+    src: url(NextGen\font\horizon.otf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Tantawan';
+    src: url(NextGen\NextGen\font\TantawanThin.ttf) format(truetype);
+}
+
+.underline{
+    border: 2px solid white;
+}
+
+* {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    position: sticky;
+}
+
+.nav-items {
+    flex-direction: row;
+    display: flex;
+}
+
+.nav-items div {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.nav-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
+
+.intro-container {
+    position: relative;
+    text-align: center;
+}
+
+.intropic{
+    animation: fadeIn 7s;   
+    height: 550px;
+    width: auto; 
+}
+.realname {
+    font-size: 70px;
+    top: 100px;
+    position: absolute;
+    top: 80%;
+    left: 37%;
+    color: white;
+    animation: fadeIn 7s;
+    font-family: 'horizon';
+}
+
+.surname {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    animation: fadeIn 7s; 
+    font-family: 'horizon';  
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutme {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutmetext {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Tantawan';
+}
+
+.aboutmeprofile {
+    height: 480px;
+    width: auto;
+}
+
+.megaeducationcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+.EDUCATION{
+    margin-left: 3%;
+}
+
+.educationcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.anubarn {
+    margin-left: 3%;
+}
+
+.anubarn img {
+    width: 500px;
+
+}
+
+.อนุบาลศึกษา {
+    font-size: 40px;
+    margin-top: -8%;
+}
+
+.โรงเรียนอนุบาลปานตะวัน {
+    font-size: 25px;
+    font-family: 'Tantawan';
+}
+
+.Education {
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.ultraeducationcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.anubarn {
+    display: flex;
+    flex-direction: column;
+}
+
+.prathompic{
+    height: 400px;
+    width: auto;
+}
+
+.mathayompic{
+    height: 400px;
+    width: auto;
+}
+
+.fromchildhoodtext {
+    font-size: 30px;
+    font-family: 'Tantawan';
+}
+
+.hobbytext{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'horizon';
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #ff0000;
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'horizon';
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.contact-container {
+    font-size: 50px;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.wordcontainer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.word{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: auto;
+    margin-left: 3%;
+    position: absolute;
+    left: 7%;
+    font-family: 'Tantawan';
+}
+
+.wordimg{
+    margin-left: 30%;
+}
